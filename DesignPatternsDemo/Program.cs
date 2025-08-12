@@ -19,6 +19,8 @@ class Program
         SingletonExample.RunExample();
         FactoryMethodExample.RunExample();
         BuilderExample.RunExample();
+        AbstractFactoryExample.RunExample();
+        PrototypeExample.RunExample();
         
         // Structural Patterns
         Console.WriteLine("\n" + new string('=', 50));
@@ -27,6 +29,8 @@ class Program
         
         AdapterExample.RunExample();
         DecoratorExample.RunExample();
+        FacadeExample.RunExample();
+        CompositeExample.RunExample();
         
         // Behavioral Patterns
         Console.WriteLine("\n" + new string('=', 50));
@@ -35,6 +39,8 @@ class Program
         
         ObserverExample.RunExample();
         StrategyExample.RunExample();
+        CommandExample.RunExample();
+        TemplateMethodExample.RunExample();
         
         Console.WriteLine("\n" + new string('=', 50));
         Console.WriteLine("Demo completed! Check the code to see how each pattern is implemented.");
