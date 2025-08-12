@@ -46,9 +46,19 @@ class Program
         TemplateMethodExample.RunExample();
         StateExample.RunExample();
         ChainOfResponsibilityExample.RunExample();
+        MementoExample.RunExample();
+        IteratorExample.RunExample();
+        MediatorExample.RunExample();
+        VisitorExample.RunExample();
+        InterpreterExample.RunExample();
         
         Console.WriteLine("\n" + new string('=', 50));
-        Console.WriteLine("Demo completed! Check the code to see how each pattern is implemented.");
+        Console.WriteLine("🎉 ALL 23 DESIGN PATTERNS COMPLETED! 🎉");
+        Console.WriteLine("This demo showcased all Gang of Four design patterns:");
+        Console.WriteLine("✅ 5 Creational Patterns");
+        Console.WriteLine("✅ 7 Structural Patterns"); 
+        Console.WriteLine("✅ 11 Behavioral Patterns");
+        Console.WriteLine("Check the code to see how each pattern is implemented.");
         Console.WriteLine("Press any key to exit...");
         Console.ReadKey();
     }

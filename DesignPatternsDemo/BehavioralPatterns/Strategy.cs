@@ -34,11 +34,11 @@ namespace DesignPatternsDemo.BehavioralPatterns
     }
 
     // Context class
-    public class Context
+    public class StrategyContext
     {
         private IStrategy _strategy;
 
-        public Context(IStrategy strategy)
+        public StrategyContext(IStrategy strategy)
         {
             _strategy = strategy;
         }
@@ -157,7 +157,7 @@ namespace DesignPatternsDemo.BehavioralPatterns
 
             // Basic strategy example
             Console.WriteLine("1. Basic Strategy Example (Calculator):");
-            var context = new Context(new OperationAdd());
+            var context = new StrategyContext(new OperationAdd());
             Console.WriteLine($"10 + 5 = {context.ExecuteStrategy(10, 5)}");
 
             context.SetStrategy(new OperationSubtract());
