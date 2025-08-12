@@ -31,6 +31,9 @@ class Program
         DecoratorExample.RunExample();
         FacadeExample.RunExample();
         CompositeExample.RunExample();
+        BridgeExample.RunExample();
+        ProxyExample.RunExample();
+        FlyweightExample.RunExample();
         
         // Behavioral Patterns
         Console.WriteLine("\n" + new string('=', 50));
@@ -41,6 +44,8 @@ class Program
         StrategyExample.RunExample();
         CommandExample.RunExample();
         TemplateMethodExample.RunExample();
+        StateExample.RunExample();
+        ChainOfResponsibilityExample.RunExample();
         
         Console.WriteLine("\n" + new string('=', 50));
         Console.WriteLine("Demo completed! Check the code to see how each pattern is implemented.");
